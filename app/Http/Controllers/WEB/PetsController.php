@@ -31,8 +31,10 @@ class PetsController extends Controller
         $pet = Pet::create([
             'name' => $request['name'],
             'specie' => $request['specie'],
+            'SubSpecies' => $request['SubSpecies'],
             'color' => $request['color'],
             'size' => $request['size'],
+            'SizeCM' => $request['SizeCM']
         ]);
 
         return view('pets.show', [
