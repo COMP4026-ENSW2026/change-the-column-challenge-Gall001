@@ -10,18 +10,23 @@ Adicionar novo pet:
     <input id="color" name="color" type="text" /> <br/>
 
     <label for="specie">Especie</label>
-    <input id="specie" name="specie" type="text" /> <br/>
+    <select name="specie" id="specie">
+        <option value="cachorro">cachorro</option>
+        <option value="gato">gato</option>
+        <option value="coelho">coelho</option>
+        <option value="passaro">passaro</option>
+    </select>
 
     <label for="SubSpecies">SubSpecie (Optional)</label>
     <input id="SubSpecies" name="SubSpecies" type="text" /> <br/>
 
     <label for="size">Size</label>
     <select name="size" id="size">
-        <option value="xs">XS</option>
-        <option value="sm">SM</option>
-        <option value="m">M</option>
-        <option value="l">L</option>
-        <option value="xl">XL</option>
+        <option value="Extra Small">Extra Small</option>
+        <option value="Medium Small">Medium Small</option>
+        <option value="Medium">Medium</option>
+        <option value="Large">Large</option>
+        <option value="Extra Large">Extra Large</option>
     </select>
 
     <label for="SizeCM">Size in Centimeter (Optional)</label>
